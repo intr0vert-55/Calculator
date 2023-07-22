@@ -1,0 +1,38 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+    <div class="cal">
+      <br>
+        <h1>-- Calculator --</h1>
+        <div class="in">
+          <label for = "a">Number 1 </label>
+          <input type = "text" id = "a"><br><br>
+        </div>
+        <div class="buttons">
+          <input type = "button" class = "but" value = "Add" onclick = "add()">
+          <input type = "button" class = "but" value = "Subract" onclick = "sub()">
+          <input type = "button" class = "but" value = "Multiply" onclick = "mul()">
+          <input type = "button" class = "but" value = "Divide" onclick = "div()">
+          <input type = "button" class = "but" value = "Equals" onclick = "equals()"><br><br>
+        </div>
+          
+          <!-- <p id = "res">Results will be displayed here</p> -->
+          <p id = "res"></p>
+          <p id = "result">The result will be displayed here</p>
+          <br>
+    </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

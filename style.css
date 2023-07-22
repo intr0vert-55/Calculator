@@ -1,0 +1,33 @@
+*{
+    text-align: center;
+}
+.but{
+    border-radius: 90px;
+    cursor: pointer;
+    background-color: black;
+    color: whitesmoke;
+    padding: 1%;
+    transition: 0.5s;
+}
+.but:hover{
+    color :black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+.cal{
+    height:100vh;
+    background: linear-gradient(to right,grey,whitesmoke);
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(95, 95, 95);
+}
+.cal:hover{
+    /* background-color: ; */
+    color: black;
+    transition: 0.5s;
+}
+.cal input{
+    text-align: justify;
+}
